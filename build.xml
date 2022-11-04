@@ -52,7 +52,7 @@
   <!-- Plugin version during build time -->
   <property name="plugin.version" value="dev"/>
 
-  <target name="distro" description="Produce a new distribution" depends="clean,plugin">
+  <target name="dist" description="Produce a new distribution" depends="clean,plugin">
 
     <mkdir dir="${distro}"/>
 
